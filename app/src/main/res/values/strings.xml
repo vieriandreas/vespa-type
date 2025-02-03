@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Vespa Type</string>
+
+    <string name="vespa_name">Nama Vespa</string>
+    <string name="description">Deskripsi</string>
+
+    <string-array name="data_name">
+        <item>Vespa Paperino</item>
+        <item>Vespa Prototype</item>
+        <item>Vespa Corsa</item>
+        <item>Vespa Circuito</item>
+        <item>Vespa Monthlery</item>
+        <item>Vespa U</item>
+        <item>Vespa Side Car</item>
+        <item>Vespa 400</item>
+        <item>Vespa Super Sprint</item>
+        <item>Vespa Primavera</item>
+        <item>Vespa TS</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Skuter ini diberi nama MP5 (Moto Piaggio) atau yang sering disebut Donal Bebek (Paperino) oleh para karyawannya. Namun ternyata Enrico Piaggio kurang menyukai prototipe ini. Karena itulah ia mempercayakan Corradino D’Ascanio untuk mempertimbangkan lagi dan membuat sesuatu yang berbeda dan lebih maju baik dari segi teknis maupun desain. D’Ascanio tidak melakukan perubahan pada skuter Donal Bebek itu, tetapi ia menciptakan kendaraan yang sama sekali baru, yaitu Vespa! Sebelum Vespa, skuter Donal Bebek itu sempat diproduksi sekitar 100 buah. Saat ini skuter itu sangat diminati dan dicari oleh para kolektor seluruh dunia.</item>
+        <item>Pada bulan April 1946, sepeda motor ringan dan serbaguna ini diperkenalkan untuk pertama kalinya kepada publik di sebuah perkumpulan pemain golf di Roma. Di perisainya terpasang logo Piaggio baru untuk pertama kalinya, menggantikan lambang pesawat yang ada di sana sebelumnya.Pada tahun pertama telah memproduksi 2.484 buah. Inilah awal petualangan skuter yang paling terkenal di dunia. Harga model ini adalah £55.000, sedang versi deluxe dijual dengan harga £66.000.</item>
+        <item>Populasi “swarm silver” yang memenuhi jalan-jalan di Italia mendatangkan ide di benak Enrico Piaggio untuk memproduksi kendaraan yang lebih agresif, mampu berakselerasi dengan cepat dan menjadi kampiun diluar karakter Vespa kebanyakan.Vespa 98 Corsa (sirkuit) dibuat untuk memenuhi kebutuhan akan kecepatan di berbagai kompetisi dan merepresentasikan inovasi dan teknologi yang diimplementasikan Vespa di setiap produknya. Body hand made yang dicangkok di atas frame baja dengan mount tube dab suspense di kanan, rem tromol serta lubang ventilasi udara di belakang untuk mendinginkan kerja mesin merupakan inovasi paling canggih saat itu.</item>
+        <item>Pada akhir tahun 40an, produsen sepeda motor besar beranggapan bahwa cara terbaik untuk mengiklankan kendaraan mereka adalah dengan mengikuti lomba yang diadakan di sejumlah kota. Tujuannya adalah untuk mendekatkan masyarakat umum pada sektor otomotif sehinga bisa menambah pelanggan-pelanggan baru yang potensial. Piaggio juga merancang serangkaian skuter sirkuit seperti produk tahun 1949 ini yang sejak awal dirancang untuk tujuan tersebut. Selain untuk iklan, Vespa Circuito 125 juga berguna sebagai uji coba untuk menguji produk baru yang kemudian diterapkan pada produk-produk standar.</item>
+        <item>Untuk mempromosikan citra sporti Vespa, Piaggio memerintahkan tim ahlinya untuk lebih fokus pada pencatatan rekor dengan tujuan untuk mengabadikan tradisi keunggulan dalam penelitian yang sudah dicapai perusahaan ini sebelum perang.Pada tanggal 7 April 1950 di sirkuit Montlhery, Perancis, dalam 10 jam pengujian dengan tiga pembalap yang bergantian, Vespa memenangkan 17 buah rekor dunia. Termasuk dalam catatan waktu (rata-rata 134 km/jam) dari 100 mil, (rata-rata 129,7 km/jam) dari 500 mil, (rata-rata 123,9 km/jam) dari 1.000 km (rata-rata 124,3 km/jam) dalam waktu 10 jam dan jarak 1.049 km.</item>
+        <item>Vespa ini hanya diproduksi 7.000 buah. Skuter Vespa U adalah salah satu yang paling dicari oleh para kolektor. Dibuat pada tahun 1953 sebagai model ekonomis.Huruf “U” adalah singkatan dari utilitaria (serbaguna), karena model ini memang dibuat untuk menyaingi Lambretta. Harganya dipatok 110 dollar. Untuk pertama kalinya Vespa yang dibuat di pasar Italia memiliki lampu di setang dan bukan di mudguard depan.</item>
+        <item>Vespa sidecar dibuat antara tahun 1948-awal 1949, ditengah-tengah keberhasilan yang diraih mesin 125 baru. Vespa model ini dibuat setelah melalui penelitian yang seksama. Skuter ini memiliki sespan tunggal yang didukung coil spring, sehingga lebih stabil dan nyaman untuk perjalanan jauh.Side carnya terbuat dari baja, dipasang secara manual dan dihubungkan dengan Vespa melalui sebuah tabung yang merupakan solusi unik dari Piaggio. Selain itu, gear boxnya juga diganti untuk mempermudah saat melalui jalanan yang tidak rata.Performanya mendapat banyak pujian, bahkan di medan bersalju dan lereng curam sekalipun. Model side car memadukan kenyamanan melaui penambahan windshield dan bagasi di punggung belakang, serta keamanan dan kepraktisan yang merupakan jaminan nama ‘Vespa’.</item>
+        <item>Saat Vespa mencapai puncak kejayaannya, Piaggio memutuskan untuk ikut memasuki sektor kendaraan empat roda. Tujuannya, juga ingin menghasilkan kendaraan yang murah dan bisa digunakan secara luas.Mobil ini bermesin belakang 2-tak yang dibuat dalam 2 versi.Diluncurkan pada tahun 1957, Piaggio memproduksi 30.000 unit di perusahaan pemegang lisensi di Perancis (ACMA). Pada tahun 1959 mengambil bagian dalam reli Monte Carlo. Dengan mesin 2 tak, 394cc, dua tempat duduk dan aksesori “Spartan”, Vespa 400 merupakan pelopor mobil serba guna yang akhirnya menyerbu jalan-jalan Eropa pada tahun 60an.</item>
+        <item>Sudah tidak diragukan lagi, Super Sprint 90 memiliki desain yang paling orisinil dengan garis bentuk yang mantap. Model ini diproduksi oleh Piaggio sejak 1966 karena memiliki kecepatn, spring/ release yang sangat kuat dan kemudi yang mengagumkan.Dilengkapi windshield dengan ukuran yang diperkecil dan kotak bagasi di antara jok dan setang. Roda cadangan, seperti pada Vespa GS 1955, tersimpan di tengah pijakan kaki.Bersamaan dengan keberhasilan Vespa 90 SS, Piaggio juga membuat versi 50cc yang dijual di pasar luar negeri, khususnya di Swiss dan Jerman.Model 90 SS, seperti Vespa 50, termasuk model yang paling dicari kolektor karena nilainya bagai permata yang cocok untuk dikoleksi.</item>
+        <item>Berasal dari model 125 VMA1, sejak pertama kali dirilis Vespa 125 ‘Primavera’ langsung meraih kesuksesan. Karakteristiknya yang mudah dikemudikan, cepat, gesit dan kuat, tak heran nama Vespa Primavera begitu terkenal di tahun 60an.“Dengan Vespa, kita bisa” begitulah kampanye untuk merebut hati anak muda yang berusia di atas 16 tahun pada masa itu. Mereka menyukai olahraga dan alam, serta tak ingin lalu lintas menjadi penghambat mereka untuk menepati janji dengan teman-temannya.Dengan fitur utama frame yang lebih panjang, maka pembonceng pun bisa lebih nyaman duduk di atas kendaraan ini.</item>
+        <item>Sebuah nama baru dan gaya yang juga baru dimiliki oleh Vespa 125 Pole Position, yang keluar pada tahun 1985. Garis bentuknya lebih berani. Spoiler, kaca depan dan tachometer digitalnya meningkatkat karakter sporti.Untuk model ini, Piaggio menghadapi tantangan sulit karena harus bersaing ketat dengan produk asal Jepang. T5 ini dilengkapi dengan mesin baru yang memberikan 5 pouring sehingga kinerjanya lebih baik dibandingkan dengan model-model Vespa lain yang bersilinder sama.Model ini identik dengan kecepatan dan nama besar pembalap Formula 1, dan Nelson Piquet adalah saksi istimewanya.</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/vespa_paperino</item>
+        <item>@drawable/vespa_prototype</item>
+        <item>@drawable/vespa_corsa</item>
+        <item>@drawable/vespa_circuito</item>
+        <item>@drawable/vespa_monthlery</item>
+        <item>@drawable/vespa_u</item>
+        <item>@drawable/vespa_sidecar</item>
+        <item>@drawable/vespa_400</item>
+        <item>@drawable/vespa_supersprint</item>
+        <item>@drawable/vespa_primavera</item>
+        <item>@drawable/vespa_ts</item>
+    </integer-array>
+</resources>
