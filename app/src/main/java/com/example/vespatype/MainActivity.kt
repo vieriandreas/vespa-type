@@ -1,10 +1,9 @@
 package com.example.vespatype
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -40,5 +39,15 @@ class MainActivity : AppCompatActivity() {
         rvVespa.layoutManager = LinearLayoutManager(this)
         val listVespaAdapter = ListVespaAdapter(list)
         rvVespa.adapter = listVespaAdapter
+
+        listVespaAdapter.setOnItemClickCallback(object : ListVespaAdapter.OnItemClickCallback {
+            override fun onItemClicked(data: Vespa) {
+                showSelectedVespa(data)
+            }
+        })
+    }
+
+    private fun showSelectedVespa(vespa: Vespa) {
+        Toast.makeText(this, "Kamu memilih " + vespa.name, Toast.LENGTH_SHORT).show()
     }
 }

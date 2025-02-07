@@ -1,5 +1,6 @@
 package com.example.vespatype
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -8,6 +9,11 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 class ListVespaAdapter(private val listVespa: ArrayList<Vespa>): RecyclerView.Adapter<ListVespaAdapter.ListViewHolder>() {
+    private lateinit var onItemClickCallback: OnItemClickCallback
+
+    fun setOnItemClickCallback(onItemClickCallback: OnItemClickCallback) {
+        this.onItemClickCallback = onItemClickCallback
+    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
         val view: View = LayoutInflater.from(parent.context).inflate(R.layout.item_row_vespa, parent, false)
@@ -20,6 +26,12 @@ class ListVespaAdapter(private val listVespa: ArrayList<Vespa>): RecyclerView.Ad
         holder.imgPhoto.setImageResource(photo)
         holder.tvName.text = name
         holder.tvDescription.text = description
+
+        holder.itemView.setOnClickListener {
+            val intentDetail = Intent(holder.itemView.context, DetailActivity::class.java)
+            intentDetail.putExtra("key_vespa", listVespa[holder.adapterPosition])
+            holder.itemView.context.startActivity(intentDetail)
+        }
     }
 
     override fun getItemCount(): Int = listVespa.size
@@ -30,4 +42,7 @@ class ListVespaAdapter(private val listVespa: ArrayList<Vespa>): RecyclerView.Ad
         val tvDescription: TextView = itemView.findViewById(R.id.tv_item_description)
     }
 
+    interface OnItemClickCallback {
+        fun onItemClicked(data: Vespa)
+    }
 }
