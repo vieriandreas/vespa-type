@@ -1,7 +1,9 @@
 package com.example.vespatype
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
+import android.view.MenuItem
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -27,6 +29,19 @@ class MainActivity : AppCompatActivity() {
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_main, menu)
         return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+       when (item.itemId) {
+           R.id.about_page -> {
+               val intent = Intent(this, AboutActivity::class.java)
+               this.startActivity(intent)
+           }
+       }
+
+
+        return super.onOptionsItemSelected(item)
+
     }
 
     private fun getListVespa(): ArrayList<Vespa> {
