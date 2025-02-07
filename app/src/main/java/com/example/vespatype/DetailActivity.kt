@@ -1,6 +1,5 @@
 package com.example.vespatype
 
-import android.app.Person
 import android.os.Build
 import android.os.Bundle
 import android.util.Log
@@ -27,6 +26,10 @@ class DetailActivity : AppCompatActivity() {
         }
 
         Log.d("Vespa", dataVespa?.name ?: "data vespa Null")
+
+        tvDetailName.text = dataVespa?.name
+        tvDetailDescription.text = dataVespa?.description
+        tvDetailPhoto.setImageResource(dataVespa!!.photo)
     }
 
 
