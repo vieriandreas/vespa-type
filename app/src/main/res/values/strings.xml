@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Vespa Type</string>
-
     <string name="vespa_name">Nama Vespa</string>
     <string name="description">Deskripsi</string>
+    <string name="about_page">About</string>
 
     <string-array name="data_name">
         <item>Vespa Paperino</item>
